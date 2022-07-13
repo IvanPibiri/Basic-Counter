@@ -18,7 +18,7 @@ btns.forEach(function(btn) {
             count = 0;
         }
 
-        /* I put some color to style number above or below zero */
+        /* I put some color to style numbers above or below zero */
         if(count < 0) {
             value.style.color = "orange";
         } else if(count > 0) {
