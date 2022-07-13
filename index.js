@@ -4,7 +4,7 @@ let count = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
-/* Calls a function for each button that set the class called by the callback function for every click on the respective button */
+/* Calls a function for each button that set the class called by the event for every click on the respective button */
 btns.forEach(function(btn) {
     btn.addEventListener("click", function(e) {
         const styles = e.currentTarget.classList; console.log(e.currentTarget.classList)
